@@ -1,0 +1,34 @@
+@import "../abstract/global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+.header {
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    &--title {
+        font-family: 'Holtwood One SC', serif;
+        letter-spacing: .5rem;
+        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjaM85jkg-hzMVmKZr1nx5XaExHvxeQToNJkt1IVEcHmrT88a7&usqp=CAU')center/cover;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    &__title--1 {
+    font-size: 4.5rem;
+       
+    }
+    &__title--2 {
+          font-size: 3.5rem;
+
+    }
+}
+.navbar {
+    color: red;
+}
+//   text-align: center;
+//   &__title {
+//       color: red;
+//       &--sub {
+//         //   color: blue;
+//       }
+//   }
