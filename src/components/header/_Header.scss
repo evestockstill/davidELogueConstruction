@@ -1,0 +1,40 @@
+@import "../abstract/global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+.header {
+    background-color: black;
+   
+    // padding: 2rem;
+    color: white;
+  
+    
+
+
+    &--title {
+       @include text-color(3rem)
+    }
+    // &__title--1 {
+    // font-size: 4.5rem;
+       
+    // }
+    // &__title--2 {
+    //       font-size: 3.5rem;
+
+    // }
+    .hero-header {
+        height: 80vh;
+        width: 100%;
+        @include respond(phone) {
+width: 60vw
+        }
+    }
+}
+.navbar {
+    color: red;
+}
+//   text-align: center;
+//   &__title {
+//       color: red;
+//       &--sub {
+//         //   color: blue;
+//       }
+//   }
