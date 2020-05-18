@@ -1,0 +1,58 @@
+@import "../abstract/global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+.header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    &--title {
+       @include text-color(4rem)
+    }
+  
+    
+
+
+    // &__title--1 {
+    // font-size: 4.5rem;
+       
+    // }
+    // &__title--2 {
+    //       font-size: 3.5rem;
+
+    // }
+    
+// .navbar {
+//     color: red;
+// }
+//   text-align: center;
+//   &__title {
+//       color: red;
+//       &--sub {
+//         //   color: blue;
+//       }
+//   }
+}
+// .hero__image {
+//          height: 100vh;
+//         max-width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   box-shadow: inset 0rem 0rem 1rem 1rem black;
+//   background:
+//     url('../assets/hero/kitchen1.png') center/contain no-repeat;
+//   position: relative;
+//     //     padding: 3rem;
+//     //     height: 95vh;
+//     //     width: 100vw;
+//     //     @include respond(tab-land) {
+//     //         height: 80vh;
+//     //     }
+//     //     @include respond(tab-port) {
+//     //         height: 70vh;
+//     //     }
+//     //     @include respond(phone) {
+//     //          height: 50vh;
+
+//     //     }
+//     // }
+// }
