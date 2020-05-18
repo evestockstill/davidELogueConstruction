@@ -1,0 +1,31 @@
+@import '../abstract/global';
+
+.slider {
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.slide {
+    position: relative;
+    border: 1px solid blue;
+    min-width: 100%;
+    height: 80vh;
+
+}
+%btn-styles {
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: 80%;
+}
+.prevBtn {
+    left: 0;
+    @extend %btn-styles;
+}
+.nextBtn { 
+    right: 0;
+     @extend %btn-styles;
+}

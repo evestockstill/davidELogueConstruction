@@ -2,16 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 .header {
     background-color: black;
-   
-    // padding: 2rem;
     color: white;
+    padding: 1rem;
+    &--title {
+       @include text-color(4rem)
+    }
   
     
 
 
-    &--title {
-       @include text-color(3rem)
-    }
     // &__title--1 {
     // font-size: 4.5rem;
        
@@ -20,17 +19,10 @@
     //       font-size: 3.5rem;
 
     // }
-    .hero-header {
-        height: 80vh;
-        width: 100%;
-        @include respond(phone) {
-width: 60vw
-        }
-    }
-}
-.navbar {
-    color: red;
-}
+    
+// .navbar {
+//     color: red;
+// }
 //   text-align: center;
 //   &__title {
 //       color: red;
@@ -38,3 +30,29 @@ width: 60vw
 //         //   color: blue;
 //       }
 //   }
+}
+// .hero__image {
+//          height: 100vh;
+//         max-width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   box-shadow: inset 0rem 0rem 1rem 1rem black;
+//   background:
+//     url('../assets/hero/kitchen1.png') center/contain no-repeat;
+//   position: relative;
+//     //     padding: 3rem;
+//     //     height: 95vh;
+//     //     width: 100vw;
+//     //     @include respond(tab-land) {
+//     //         height: 80vh;
+//     //     }
+//     //     @include respond(tab-port) {
+//     //         height: 70vh;
+//     //     }
+//     //     @include respond(phone) {
+//     //          height: 50vh;
+
+//     //     }
+//     // }
+// }
