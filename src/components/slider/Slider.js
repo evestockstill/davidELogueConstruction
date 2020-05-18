@@ -5,6 +5,7 @@ import SliderImg from './SliderImg';
 // import img2 from '../assets/hero/bathroom.png';
 // import img3 from '../assets/hero/deck.png';
 
+
 const Slider = () => {
   let sliderArr = [
     // 1, 2, 3
