@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import './_Slider.scss';
 import SliderImg from './SliderImg';
-import img1 from '../assets/hero/kitchen1.png';
-import img2 from '../assets/hero/bathroom.png';
-import img3 from '../assets/hero/deck.png';
+// import img1 from '../assets/hero/kitchen1.png';
+// import img2 from '../assets/hero/bathroom.png';
+// import img3 from '../assets/hero/deck.png';
 
 const Slider = () => {
   let sliderArr = [
     // 1, 2, 3
-    <SliderImg src={img1} />,
-    <SliderImg src={img2} />,
-    <SliderImg src={img3} />
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/deck1_m1ems6SSz.png'/>,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/kitchen1_Mbx4OAgDG.png'/>,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/bathroom1_APVNsOz9a.png' />
   ];
 
   const [x, setX] = useState(0);
