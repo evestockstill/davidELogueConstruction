@@ -47,6 +47,7 @@ $color: transparent;
    background-clip: $clip;
    letter-spacing: $space;
    -webkit-background-clip: $webclip;
+   background-clip: $webclip;
    color: $color;
    line-height: $height;
 }
