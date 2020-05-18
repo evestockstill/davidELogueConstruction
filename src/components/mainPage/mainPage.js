@@ -5,7 +5,7 @@ import Slider from '../slider/Slider';
 const MainPage = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Slider />
     </>
   );

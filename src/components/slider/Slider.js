@@ -1,8 +1,17 @@
 import React, { useState } from 'react';
 import './_Slider.scss';
+import SliderImg from './SliderImg';
+import img1 from '../assets/hero/kitchen1.png';
+import img2 from '../assets/hero/bathroom.png';
+import img3 from '../assets/hero/deck.png';
 
 const Slider = () => {
-  let sliderArr = [1, 2, 3, 4, 5];
+  let sliderArr = [
+    // 1, 2, 3
+    <SliderImg src={img1} />,
+    <SliderImg src={img2} />,
+    <SliderImg src={img3} />
+  ];
 
   const [x, setX] = useState(0);
 
