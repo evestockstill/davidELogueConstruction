@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './_Slider.scss';
 import SliderImg from './SliderImg';
 import img1 from '../assets/hero/kitchen1.png';
-import img2 from '../assets/hero/bathroom.png';
-import img3 from '../assets/hero/deck.png';
+import img2 from '../assets/hero/bathroom1.png';
+import img3 from '../assets/hero/deck1.png';
 
 const Slider = () => {
   let sliderArr = [
