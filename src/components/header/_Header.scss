@@ -3,14 +3,18 @@
 .header {
     background-color: black;
     color: white;
-    padding: 1rem;
+    padding: 1rem 2rem;
+    display: grid;
+    &--title {
+       display: grid;
+    }
     &__title--1{
-       @include text-color(3.5rem);
-       margin-top: 2rem;
+       @include text-color(3.5rem, 800);
+      //  margin-top: 2rem;
     }
   
     &__title--2{
-       @include text-color(3.5rem);
+       @include text-color(3.5rem, 800);
     }
   
     
