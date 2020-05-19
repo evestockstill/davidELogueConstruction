@@ -2,13 +2,19 @@
 import React, { useState } from 'react';
 import './_Slider.scss';
 import SliderImg from './SliderImg';
-
-
+// import img1 from '../assets/hero/stairs.png';
+// import img2 from '../assets/hero/verticalBath.png';
+// import img3 from '../assets/hero/verticalBath4.jpg';
 const Slider = () => {
   let sliderArr = [
-    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/kitchen1_Mbx4OAgDG.png' />,
-    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/deck1_m1ems6SSz.png' />,
-    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/bathroom1_APVNsOz9a.png' />,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/deck1_CCj34fgtd.png' />,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/verticalBath2_fuzLTzLswH.jpg' />,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/smallerVerticalBath_HURgNGfP4.jpg' />,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/IMG_0558_qaP_ynHIr.jpeg' />,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/kitchen1_4fHfp7zyi.png' />,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/stairsBig_mIQOz7JqG.jpg' />,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/verticalBathBig_B5RpVfKqE.png' />,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/sukiDave_CE-X3DRPR.jpg' />
   ];
   const [x, setX] = useState(0);
 
@@ -33,9 +39,9 @@ const Slider = () => {
       })}
       <button className='prevBtn' onClick={handlePrev}>
         <svg
-          className='hammer'
-          width='85pt'
-          height='60pt'
+          className='hammer1'
+          width='100'
+          height='100'
           version='1.0'
           viewBox='0 0 900 663'
           xmlns='http://www.w3.org/2000/svg'
@@ -47,7 +53,7 @@ const Slider = () => {
       </button>
       <button className='nextBtn' onClick={handleNext} id='hammer2'>
         <svg
-          className='hammer'
+          className='hammer2'
           version='1.0'
           xmlns='http://www.w3.org/2000/svg'
           width='85.000000pt'

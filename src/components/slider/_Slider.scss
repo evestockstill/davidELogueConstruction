@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
     min-width: 100%;
-    height: 80%;
+    height: 100%;
     transition:  0.5s;
     overflow: hidden;
 
@@ -36,19 +36,27 @@
 }
 .prevBtn {
     left: 0;
-    // padding-left: 1rem;
+    padding-left: 5rem;
     @extend %btn-styles;
     
 }
 .nextBtn { 
     right: 0;
+    padding-right: 5rem;
      @extend %btn-styles;
 }
-.hammer{
-    padding: .8rem;
-   fill: #bd761363;
-   transition: all .3s ease-in;
+.hammer1, .hammer2{
+    padding: 2rem;
+   fill: #f5a83d93;
+   transition: all .4s ease-in;
    &:hover {
       fill: #bd7613bb;
+       transform: rotate(-32deg)
    }
 }
+   .hammer2 {
+       &:hover {
+          transform: rotate(32deg)  
+       }
+   }
+
