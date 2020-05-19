@@ -20,12 +20,11 @@
 
 }
 %btn-styles {
-    color: red;
      position: absolute;
     top: 55%;
     transform: translateY(-50%);
-    width: 5%;
-    height: 80%;
+    // width: 5%;
+    height: 50%;
     background: none;
     border: none;
     outline: none;
@@ -39,9 +38,17 @@
     left: 0;
     // padding-left: 1rem;
     @extend %btn-styles;
+    
 }
 .nextBtn { 
     right: 0;
-    // padding-right: 4rem;
      @extend %btn-styles;
+}
+.hammer{
+    padding: .8rem;
+   fill: #bd761363;
+   transition: all .3s ease-in;
+   &:hover {
+      fill: #bd7613bb;
+   }
 }
