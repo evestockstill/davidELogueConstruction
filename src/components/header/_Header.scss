@@ -4,10 +4,13 @@
     background-color: black;
     color: white;
     padding: 1rem;
-    &--title {
-       @include text-color(2rem);
+    &__title--1{
+       @include text-color(3.5rem);
        margin-top: 2rem;
-    
+    }
+  
+    &__title--2{
+       @include text-color(3.5rem);
     }
   
     
