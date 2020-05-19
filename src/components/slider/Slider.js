@@ -9,12 +9,12 @@ import SliderImg from './SliderImg';
 
 const Slider = () => {
   let sliderArr = [
-    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/deck1_m1ems6SSz.png'/>,
     <SliderImg src='https://ik.imagekit.io/j5m10vikgh/kitchen1_Mbx4OAgDG.png'/>,
+    <SliderImg src='https://ik.imagekit.io/j5m10vikgh/deck1_m1ems6SSz.png'/>,
     <SliderImg src='https://ik.imagekit.io/j5m10vikgh/bathroom1_APVNsOz9a.png' />
   ];
   const [x, setX] = useState(0);
-  
+
   const handlePrev = () => {
     x === 0 ? setX(-100 * sliderArr.length - 1) : setX(x + 100);
   };
