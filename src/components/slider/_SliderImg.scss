@@ -3,6 +3,8 @@
 .heroImages {
  height: auto;
  max-width: 100%;
+//  display: grid;
+//  grid-template-columns: 1fr;
 //  background-position: center;
   // display: flex;
   padding: .5rem 16rem;
@@ -15,8 +17,10 @@
     //     @include respond(tab-port) {
     //         height: 70vh;
     //     }
-    //     @include respond(phone) {
-    //          height: 50vh;
+        @include respond(phone) {
+             height: 60vh;
+             max-width: 100vw;
+            padding: .5rem;
 
-    //     }
+        }
     }
